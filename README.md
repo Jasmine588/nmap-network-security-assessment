@@ -1,4 +1,3 @@
-# nmap-network-security-assessment
 # Nmap Network Security Assessment
 
 ## Overview
