@@ -24,24 +24,34 @@ The assessment was conducted on a virtual network consisting of multiple systems
 
 ### Host Discovery
 Identifies active systems within the subnet.
+```bash
    sudo nmap -sn <subnet>
+```
 
 ### Basic Port Scanning
 Determines open ports on a target system.
+``` bash
    sudo nmap <target>
+```
 
 ### Full Port Scan
 Scans all 65,535 TCP ports.
+```bash
    sudo nmap -p- <target>
+````
 
 ### Service and Version Detection
 
 Identifies services running on open ports.
+```bash
    sudo nmap -sV <target>
+```
 
 ### Operating System Detection
 Attempts to determine the operating system of a target machine.
+```bash
    sudo nmap -O <target>
+```
 
 ## Key Findings
 * Multiple active hosts were identified within the internal subnet.
@@ -60,6 +70,7 @@ The presence of many filtered ports suggests that host-based firewall controls a
 3. Secure remote communication channels and monitor administrative access activity.
 
 ## Project Structure
+```
 nmap-network-security-assessment
 │
 ├── report.pdf
@@ -69,6 +80,7 @@ nmap-network-security-assessment
 │   ├── service-detection.png
 │   └── zenmap-scan.png
 └── README.md
+```
 
 ## Ethical Notice
 This project was conducted in a **controlled educational lab environment**.
