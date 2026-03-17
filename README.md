@@ -74,7 +74,7 @@ The presence of many filtered ports suggests that host-based firewall controls a
 nmap-network-security-assessment
 │
 ├── report.pdf
-├── screenshots
+|   ├── screenshots
 │   ├── host-discovery.png
 │   ├── port-scan.png
 │   ├── service-detection.png
